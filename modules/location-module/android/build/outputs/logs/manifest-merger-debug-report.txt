@@ -1,0 +1,34 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/arbaaz/my-appDeepLink/modules/location-module/android/src/main/AndroidManifest.xml:1:1-11:12
+INJECTED from /Users/arbaaz/my-appDeepLink/modules/location-module/android/src/main/AndroidManifest.xml:1:1-11:12
+	package
+		INJECTED from /Users/arbaaz/my-appDeepLink/modules/location-module/android/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/arbaaz/my-appDeepLink/modules/location-module/android/src/main/AndroidManifest.xml:1:11-69
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /Users/arbaaz/my-appDeepLink/modules/location-module/android/src/main/AndroidManifest.xml:2:5-81
+	android:name
+		ADDED from /Users/arbaaz/my-appDeepLink/modules/location-module/android/src/main/AndroidManifest.xml:2:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /Users/arbaaz/my-appDeepLink/modules/location-module/android/src/main/AndroidManifest.xml:3:5-79
+	android:name
+		ADDED from /Users/arbaaz/my-appDeepLink/modules/location-module/android/src/main/AndroidManifest.xml:3:22-76
+application
+ADDED from /Users/arbaaz/my-appDeepLink/modules/location-module/android/src/main/AndroidManifest.xml:5:5-10:19
+service#expo.modules.locationmodule.services.LocationTaskService
+ADDED from /Users/arbaaz/my-appDeepLink/modules/location-module/android/src/main/AndroidManifest.xml:6:9-9:56
+	android:exported
+		ADDED from /Users/arbaaz/my-appDeepLink/modules/location-module/android/src/main/AndroidManifest.xml:8:13-37
+	android:foregroundServiceType
+		ADDED from /Users/arbaaz/my-appDeepLink/modules/location-module/android/src/main/AndroidManifest.xml:9:13-53
+	android:name
+		ADDED from /Users/arbaaz/my-appDeepLink/modules/location-module/android/src/main/AndroidManifest.xml:7:13-57
+uses-sdk
+INJECTED from /Users/arbaaz/my-appDeepLink/modules/location-module/android/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/arbaaz/my-appDeepLink/modules/location-module/android/src/main/AndroidManifest.xml
+INJECTED from /Users/arbaaz/my-appDeepLink/modules/location-module/android/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/arbaaz/my-appDeepLink/modules/location-module/android/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/arbaaz/my-appDeepLink/modules/location-module/android/src/main/AndroidManifest.xml

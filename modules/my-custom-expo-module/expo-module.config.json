@@ -1,9 +1,0 @@
-{
-  "platforms": ["ios", "tvos", "android", "web"],
-  "ios": {
-    "modules": ["my-custom-expo-moduleModule"]
-  },
-  "android": {
-    "modules": ["expo.custom.module.my-custom-expo-moduleModule"]
-  }
-}

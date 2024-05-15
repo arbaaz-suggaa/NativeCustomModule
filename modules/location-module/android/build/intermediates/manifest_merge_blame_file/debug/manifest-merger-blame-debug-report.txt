@@ -1,0 +1,26 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="expo.modules.locationmodule" >
+4
+5    <uses-sdk android:minSdkVersion="23" />
+6
+7    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+7-->/Users/arbaaz/my-appDeepLink/modules/location-module/android/src/main/AndroidManifest.xml:2:5-81
+7-->/Users/arbaaz/my-appDeepLink/modules/location-module/android/src/main/AndroidManifest.xml:2:22-78
+8    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+8-->/Users/arbaaz/my-appDeepLink/modules/location-module/android/src/main/AndroidManifest.xml:3:5-79
+8-->/Users/arbaaz/my-appDeepLink/modules/location-module/android/src/main/AndroidManifest.xml:3:22-76
+9
+10    <application>
+10-->/Users/arbaaz/my-appDeepLink/modules/location-module/android/src/main/AndroidManifest.xml:5:5-10:19
+11        <service
+11-->/Users/arbaaz/my-appDeepLink/modules/location-module/android/src/main/AndroidManifest.xml:6:9-9:56
+12            android:name="expo.modules.locationmodule.services.LocationTaskService"
+12-->/Users/arbaaz/my-appDeepLink/modules/location-module/android/src/main/AndroidManifest.xml:7:13-57
+13            android:exported="false"
+13-->/Users/arbaaz/my-appDeepLink/modules/location-module/android/src/main/AndroidManifest.xml:8:13-37
+14            android:foregroundServiceType="location" />
+14-->/Users/arbaaz/my-appDeepLink/modules/location-module/android/src/main/AndroidManifest.xml:9:13-53
+15    </application>
+16
+17</manifest>
