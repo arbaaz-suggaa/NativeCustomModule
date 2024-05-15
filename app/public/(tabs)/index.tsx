@@ -1,10 +1,28 @@
 import { Image, StyleSheet, Platform } from 'react-native';
+import * as Linking from 'expo-linking';
 import { HelloWave } from '@/components/HelloWave';
 import ParallaxScrollView from '@/components/ParallaxScrollView';
 import { ThemedText } from '@/components/ThemedText';
 import { ThemedView } from '@/components/ThemedView';
+import { useEffect } from 'react';
 
 const  HomeScreen=()=> {
+
+
+  const url=Linking.useURL();
+useEffect(()=>{
+
+  
+  console.log(url,'----')
+  if (url) {
+    const { hostname, path, queryParams } = Linking.parse(url);
+    console.log(
+      `Linked to app with hostname: ${hostname}, path: ${path} and data: ${JSON.stringify(
+        queryParams
+      )}`
+    );
+  }
+},[])
 
   return (
     <ParallaxScrollView
@@ -17,7 +35,7 @@ const  HomeScreen=()=> {
       }>
       <ThemedView style={styles.titleContainer}>
         <HelloWave />
-        <ThemedText> This is home Page</ThemedText>
+        <ThemedText> The URL-{url? url:'Nothing available to show'} </ThemedText>
       </ThemedView>
     
       

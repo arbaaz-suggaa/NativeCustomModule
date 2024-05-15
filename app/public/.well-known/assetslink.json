@@ -1,0 +1,14 @@
+[
+    {
+      "relation": ["delegate_permission/common.handle_all_urls"],
+      "target": {
+        "namespace": "android_app",
+        "package_name": "com.arbaaz123.myappDeepLink",
+        "sha256_cert_fingerprints": [
+    
+          "4C:3F:71:F3:79:81:A4:09:99:7D:71:9F:BA:53:37:F3:34:B6:A3:18"
+        ]
+      }
+    }
+  ]
+  
